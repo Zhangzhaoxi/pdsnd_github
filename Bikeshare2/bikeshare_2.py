@@ -21,15 +21,19 @@ def get_filters():
     while city not in ['new york city', 'washington', 'chicago']:
         print('Sorry, Your input is not in the database')
 
+
+
+    # get user input for month (all, january, february, ... , june)
     month = input('Which month are you looking for:')
     while month not in ('January', 'Februray', 'March', 'April', 'May', 'June', 'other'):
         print('Invalid Input')
 
-    # get user input for month (all, january, february, ... , june)
-
-
     # get user input for day of week (all, monday, tuesday, ... sunday)
-
+    day = input('Please enter the date, Monday, Tuesday, etc: ')
+    day_dict = {'Monday': Mon, 'Tuesday': Tue, 'Wednesday': Wed, 'Thursday': Thurs, 'Friday': Fri, 'Saturday': Sat,
+                'Sunday': Sun}
+    while day.lower() not in day_dict.keys():
+        print('Please input valid date: Mon')
 
     print('-'*40)
     return city, month, day
