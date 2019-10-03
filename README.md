@@ -17,5 +17,5 @@ git bash on the local repository and remote repository on github
 `washington.csv`
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Credit to Udacity community for providing the datasets and project information 
 
