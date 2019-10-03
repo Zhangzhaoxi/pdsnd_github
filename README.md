@@ -1,14 +1,17 @@
 ### Date created
-Include the date you created this project and README file.
+Created project and this README.md file  on 10/2/2019
 
-### Project Title
+### Bikeshare project
 Replace the Project Title
 
 ### Description
-Describe what your project is about and what it does
+The project is to use python analyzing bikeshare datasets and then using
+git bash on the local repository and remote repository on github
 
 ### Files used
-Include the files used
+`chicago.csv`
+`new_york_city.csv`
+`washington.csv`
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
